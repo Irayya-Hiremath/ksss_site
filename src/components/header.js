@@ -9,6 +9,9 @@ function Header (){
   return(
     <div>
       <Button> Hello</Button>
+      <Button variant='danger'> Hello</Button>
+      <Button variant='success'> Hello</Button>
+
       <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
