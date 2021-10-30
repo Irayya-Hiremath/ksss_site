@@ -11,6 +11,9 @@ function Header (){
       <Button> Hello</Button>
       <Button variant='danger'> Hello</Button>
       <Button variant='success'> Hello</Button>
+      <Button> Hello</Button>
+      <Button variant='danger'> Hello</Button>
+      <Button variant='success'> Hello</Button>
 
       <Navbar bg="light" expand="lg">
   <Container>
