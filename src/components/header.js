@@ -1,81 +1,56 @@
 import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
 // import "bootstrap/dist/js/bootstrap.js"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,Navbar,Container,Nav,Item,NavDropdown,Divider,} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
+import swamiji from "../images/swamiji.jpeg"
 
 function Header (){
   return(
-    <div>
-      <Button> Hello</Button>
-      <Button variant='danger'> Hello</Button>
-      <Button variant='success'> Hello</Button>
-      <Button> Hello</Button>
-      <Button variant='danger'> Hello</Button>
-      <Button variant='success'> Hello</Button>
+    <div className='overflow-hidden'>
+      
+      <Container fluid className=' conatainer-fluid border border-danger'>
 
-      <Navbar bg="light" expand="lg">
-  <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+        {/*********  first row *************/}
+      
+        <Row className="bg-dark">
+          {/* <Col lg={2}></Col> */}
+          <Col lg={5} sm={12} style={{backgroundColor:'red'}}>
+            <span className='mx-2' bg="dark">Phone No: +91-9945024923</span>
+            <span className="mx-2">kssscollege@gmail.com</span>
+            <span className="mx-2">Budersingi,Karnataka</span>   
+          </Col>
 
-  </div>
+          <Col lg={5} sm={12}>
+            <marquee className='text-light'> website under process </marquee>
+          </Col>
+
+        </Row>
+
+
+        {/*********** second row ***************/}
+        <Row className="text-center">
+
+          <Col lg={1} sm={3}>
+            <img src={swamiji} className="d-block h-100 w-100" alt="..." />
+          </Col>
+                
+          <Col>
+              <h3 className="mb-3">KARNATAKA SHIKSHNA SEVA SAMITHI</h3>
+              <h1 className="mb-3">KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+          </Col>
+
+          <Col lg={1} sm={3}>
+            <img src={swamiji} className="d-block h-100 w-100" alt="..." />
+          </Col>       
+            
+        
+        </Row>
+      </Container>
+    </div>
 
   )
 }
   
 
-
-//   <header
-//     style={{
-//       background: `rebeccapurple`,
-//       marginBottom: `1.45rem`,
-//     }}
-//   >
-//     <div
-//       style={{
-//         margin: `0 auto`,
-//         maxWidth: 960,
-//         padding: `1.45rem 1.0875rem`,
-//       }}
-//     >
-//       <h1 style={{ margin: 0 }}>
-//         <Link
-//           to="/"
-//           style={{
-//             color: `white`,
-//             textDecoration: `none`,
-//           }}
-//         >
-//           {siteTitle}
-//         </Link>
-//       </h1>
-//     </div>
-//   </header>
-// )
-
-// Header.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-
-// Header.defaultProps = {
-//   siteTitle: ``,
-// }
 
 export default Header
