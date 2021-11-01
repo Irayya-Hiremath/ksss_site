@@ -6,9 +6,9 @@ import swamiji from "../images/swamiji.jpeg"
 
 function Header (){
   return(
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden border border-danger'>
       
-      <Container fluid className=' conatainer-fluid border border-danger'>
+      <Container fluid className='border border-danger'>
 
         {/*********  first row *************/}
       

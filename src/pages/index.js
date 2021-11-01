@@ -1,12 +1,18 @@
 import * as React from "react"
+import Content from "../components/Content"
 import Header from "../components/header"
-import Navbar from "../components/navbar"
+import Navmenu from "../components/navbar"
+import Slider from "../components/Slider"
+import Data from '../components/Data'
 
 
 const IndexPage = () => (
   <div>
-    <Header/>
-    <Navbar/>
+     {/* <Header/>
+    <Slider/>
+    <Navmenu/> */}
+    <Content title='hhhihiiihihihi' titleContent='loremmmmmmmmmmm'/> 
+    {/* <Data/> */}
   </div>
  
 )

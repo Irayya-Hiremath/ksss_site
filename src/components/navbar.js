@@ -1,106 +1,57 @@
 import * as React from "react"
 // import "bootstrap/dist/js/bootstrap.js"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container,Carousel} from 'react-bootstrap';
-import image1 from "../images/1.jpg"
-import image2 from "../images/2.jpg"
-import image3 from "../images/3.jpg"
-import image4 from "../images/4.jpg"
-import image5 from "../images/5.jpg"
-import image6 from "../images/6.jpg"
-import image7 from "../images/7.jpg"
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Container,Fluid,Nav,NavDropdown,Navbar} from "react-bootstrap";
 
 // const carsoulHieght = {
 //     hieght:'10vh'
 //     // background: 'no-repeat scroll center  scroll',
 //     // backgroundSize:'cover'
 
-
 // }
 
-function Navbar (){
-  return(
-    <div>
-      
-      <Container fluid>
-
-        {/*********  third row *************/}
-      
-        <Carousel>
-            <Carousel.Item style={{height:'55vh',background:'no-repeat scroll center  scroll',backgroundSize:'cover'}}>
-                <img
-                className="d-block w-100"
-                src={image1}
-                alt="First slide"
-                />
-                
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image2}
-                alt="Second slide"
-                />
-
-                
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image3}
-                alt="Third slide"
-                />
-
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image4}
-                alt="Fourt slide"
-                />
-                
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image5}
-                alt="Fifth slide"
-                />
-                
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image6}
-                alt="Sixth slide"
-                />
-                
-            </Carousel.Item>
-
-            <Carousel.Item style={{height:'55vh'}}>
-                <img
-                className="d-block w-100"
-                src={image7}
-                alt="Seventh slide"
-                />
-                
-            </Carousel.Item>
-
-        </Carousel>
-
-
+function Navmenu() {
+  return (
+    <div className='mt-2 border border-danger'>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container Fluid>
+          <Navbar.Brand href="#home">Home</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#features">About us</Nav.Link>
+              <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Acadamics</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                Courses
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                Sailent Features
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="#features">Events</Nav.Link>
+              <Nav.Link href="#features">Campus</Nav.Link>
+              <Nav.Link href="#features">Photo Gallery</Nav.Link>
+              <Nav.Link href="#features">Notice</Nav.Link>
+              <Nav.Link href="#features">Contact</Nav.Link>
+              {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+              
+            </Nav>
+            {/* <Nav>
+              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                Dank memes
+              </Nav.Link>
+            </Nav> */}
+          </Navbar.Collapse>
         </Container>
-
+      </Navbar>
     </div>
-
   )
 }
-  
 
-
-export default Navbar
+export default Navmenu
