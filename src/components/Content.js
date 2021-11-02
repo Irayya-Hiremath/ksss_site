@@ -65,11 +65,11 @@ function Content(props){
     return(
         <Container fluid >
 
-            <Card style={{ width: '100%', border:'2px solid green' }}>
+            <Card className='py-3' style={{ width: '100%', border:'2px solid green', }}>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Subtitle className="mb-2 py-2 text-muted"></Card.Subtitle>
+                    <Card.Text className='py-2'>
                     {props.titleContent}
                     </Card.Text>
                     {/* <Card.Link href="#">Card Link</Card.Link>

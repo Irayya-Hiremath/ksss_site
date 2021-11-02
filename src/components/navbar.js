@@ -14,12 +14,12 @@ function Navmenu() {
   return (
     <div className='mt-2 border border-danger'>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container Fluid>
+        <Container fluid> 
           <Navbar.Brand href="#home">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">About us</Nav.Link>
+              <Nav.Link href="Aboutpage">About us</Nav.Link>
               <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Acadamics</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -37,7 +37,7 @@ function Navmenu() {
               <Nav.Link href="#features">Campus</Nav.Link>
               <Nav.Link href="#features">Photo Gallery</Nav.Link>
               <Nav.Link href="#features">Notice</Nav.Link>
-              <Nav.Link href="#features">Contact</Nav.Link>
+              <Nav.Link href="Contactpage">Contact</Nav.Link>
               {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
               
             </Nav>

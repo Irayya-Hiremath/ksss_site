@@ -1,20 +1,27 @@
 import * as React from "react"
+import Contactpage from "./Contactpage"
+import Homepage from "./Homepage"
 import Content from "../components/Content"
-import Header from "../components/header"
+// import Header from "../components/header"
 import Navmenu from "../components/navbar"
-import Slider from "../components/Slider"
-import Data from '../components/Data'
+// import Slider from "../components/Slider"
+// import Data from '../components/Data';
 
 
-const IndexPage = () => (
-  <div>
-     {/* <Header/>
-    <Slider/>
-    <Navmenu/> */}
-    <Content title='hhhihiiihihihi' titleContent='loremmmmmmmmmmm'/> 
-    {/* <Data/> */}
-  </div>
- 
-)
+
+function IndexPage() {
+   
+  return(
+    <div>
+    <Homepage>
+           <Navmenu/>
+    </Homepage>
+
+  {/* <Contactpage/> */}
+ </div>
+
+  )
+}
+
 
 export default IndexPage
