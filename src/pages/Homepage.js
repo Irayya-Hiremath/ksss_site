@@ -14,8 +14,8 @@ function Homepage(){
 
     return(
         <div>
-                <Header/>
-                <Slider/>
+                {/* <Header/> */}
+                {/* <Slider/> */}
 
                  <Content title='WELCOME TO K.S.S.S P.U COLLEGE'titleContent='K.S.S.S.P.U. College draws its inspiration from the person and life
                     and teaching of Sri Sri Vishwesh Teerth Swamiji,Universal Master and
@@ -71,7 +71,7 @@ function Homepage(){
                 
                
                         <Footer/>
-                    <objectVsion/>
+                    {/* <objectVsion/> */}
 
   
 
