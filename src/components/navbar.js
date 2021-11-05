@@ -15,7 +15,7 @@ function Navmenu() {
     <div className='mt-2 border border-danger'>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid> 
-          <Navbar.Brand href="#home">Home</Navbar.Brand>
+          {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

@@ -2,7 +2,7 @@ import * as React from "react"
 import swamiji from "../images/swamiji.jpeg"
 import Content from "../components/Content"
 import Layout from "../components/Layout"
-
+import Slider from '../components/Slider'
 
 
 function IndexPage() {
@@ -10,6 +10,7 @@ function IndexPage() {
   return(
     <Layout>
       <main>
+        <Slider/>
        <Content title='WELCOME TO K.S.S.S P.U COLLEGE'titleContent='K.S.S.S.P.U. College draws its inspiration from the person and life
                     and teaching of Sri Sri Vishwesh Teerth Swamiji,Universal Master and
                     Model of education. It is situated about 5kms from Hubli on the
