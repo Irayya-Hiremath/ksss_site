@@ -9,7 +9,7 @@ import Navmenu from "../components/navbar"
 
 function Layout(props) {
     return (
-        <Layout>
+        <layout>
             <div className='overflow-hidden border border-danger'>
 
                 <Container fluid className='border border-danger'>
@@ -54,12 +54,12 @@ function Layout(props) {
             <Navmenu/>
             <main>
 
-            {props.chidren}
+            {/* {props.chidren} */}
 
             </main>
 
 
-        </Layout>
+        </layout>
 
     )
 }
