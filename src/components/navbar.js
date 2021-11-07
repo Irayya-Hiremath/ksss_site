@@ -3,6 +3,7 @@ import * as React from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Container,Fluid,Nav,NavDropdown,Navbar} from "react-bootstrap";
 
+
 // const carsoulHieght = {
 //     hieght:'10vh'
 //     // background: 'no-repeat scroll center  scroll',
@@ -21,17 +22,14 @@ function Navmenu() {
             <Nav className="me-auto">
               <Nav.Link href="Aboutpage">About us</Nav.Link>
               <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Acadamics</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="Courses">
                 Courses
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
                 Sailent Features
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
+
               </NavDropdown>
               <Nav.Link href="#features">Events</Nav.Link>
               <Nav.Link href="#features">Campus</Nav.Link>

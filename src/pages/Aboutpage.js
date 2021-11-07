@@ -2,8 +2,10 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/header'
 import Layout from '../components/Layout'
-import {Card,Nav,Button} from 'react-bootstrap'
+import {Card,Tabs,Tab,Table} from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
+import image from '../images/DSC.jpg';
+import Courses from '../components/Courses'
 
 
 function Aboutpage() {
@@ -36,55 +38,110 @@ function Aboutpage() {
                     </Card.Body>
                  </Card>
 
-                 <Card>
-                    <Card.Header className='Row' as="h5">Chief Administrator</Card.Header>
-                    <Card.Body className='col'>
-                        {/* <Card.Title>Special title treatment</Card.Title> */}
-                        <Card.Text>
+                
+                    <Card.Header  as="h5">Chief Administrator</Card.Header>
+                    <Card.Body className='row'>
+                        <div className="col-4 overflow-hidden "><img src={image} style={{image:'responsive',height:'100%',width:'100%'}} image-responsive alt="" /></div> 
+                        <Card.Text className='col-8'>
                             KSSS PU Science and Commerce College managed by Karnataka Shikshana Seva Samiti, Hubli was founded by His Holiness Dr. Si Sri Vishwesha Teertha Swamiji, Pejawar Mutt, Udupi. Our Swamiji has a keen interest towards this college and provide guidance, suggestions and inspirations which have made this college grow in leaps and bounds. The students of this college receive a special recognition everywhere. Right from its inception, the college has been receiving excellent results every year. The college provides quality education and it makes every effort in this regard. We believe that providing good education to the students is worshiping of God.
                                                     <br />
                                                     <br />
                                                 
                             Our team of lecturers are highly experienced and dedicated towards providing intensive teaching and help the students to reach their goals. Our aim is not only to provide the best education, and also to instill high disciplinary standards. Besides the quality education it provides ample opportunity to students to bring out their hidden talents. They take part in curricular and non curricular activities too. They are very well trained to face challenges in future and equipped with proper skills.
-                        <br />
+                        <br/>
                                 
                         </Card.Text>
                     </Card.Body>
-                 </Card>
+                
 
-                 <Card>
-                        <Card.Header>
-                            <Nav variant="pills" defaultActiveKey="#first">
-                            <Nav.Item>
-                                <Nav.Link href="#first">Active</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link href="#link">Link</Nav.Link>
-                            </Nav.Item>
-                            </Nav>
-                        </Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content
-                            .
-                            </Card.Text>
-                            <Card.Text id='link'>
-                            With supporting text below as a natural lead-in to additional content
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
-                            .hhiohshio joiooidsf iiu o iodfjouore ouooir
+                    <Card.Header as="h5">Management</Card.Header>
 
-                            </Card.Text>
-                        </Card.Body>
-                </Card>
+                    <Tabs defaultActiveKey="profile" className='bg-black' id="uncontrolled-tab-example" className="mb-3">
+                        <Tab eventKey="home" title="Members of trust">
+
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                <th>Sl No</th>
+                                <th>Members of Trust</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td>1</td>
+                                <td>President <br />
+                                Shri Shri Vishwesh Teertha Swamiji Of Pejawar Mutt,Udupi</td>
+                                </tr>
+
+                                <tr>
+                                <td>2</td>
+                                <td> Working President <br/>
+                                Shri Shrikanth G.Kemtur</td>
+                                </tr>
+
+                                <tr>
+                                <td>3</td>
+                                <td colSpan="2">Honorary Secretary<br/>
+                                Shri .G.R.Walvekar</td>
+                                </tr>
+
+                                <tr>
+                                <td>4</td>
+                                <td>Treasurer <br />
+                                Dr.V.G.Nadagouda</td>
+                                </tr> <tr>
+
+                                <td>5</td>
+                                <td>Honorary Joint Secretary<br/>
+                                Shri.K.Sateesh</td>
+                                </tr>
+
+                                <tr>
+                                <td>6</td>
+                                <td>Honorary Joint Secretary<br/>
+                                Shri.G.S.Mysore</td>
+                                </tr>
+                            </tbody>
+                            </Table>
+                        </Tab>
+                        <Tab eventKey="profile" title="Counsil of Advisor">
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                <th>Sl No</th>
+                                <th>Members of Trust</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td>1</td>
+                                <td>President <br />
+                                Shri Shri Vishwesh Teertha Swamiji Of Pejawar Mutt,Udupi</td>
+                                </tr>
+
+                                <tr>
+                                <td>2</td>
+                                <td> Working President <br/>
+                                Shri Shrikanth G.Kemtur</td>
+                                </tr>
+
+                                <tr>
+                                <td>3</td>
+                                <td colSpan="2">Honorary Secretary<br/>
+                                Shri .G.R.Walvekar</td>
+                                </tr>
+
+    
+                            </tbody>
+
+                          </Table>  
+
+                            
+                        </Tab>
+                       
+                  </Tabs>
+
+                  <Courses/>
             </Layout>
             
         </div>
