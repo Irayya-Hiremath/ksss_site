@@ -3,6 +3,7 @@ import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Row,Col} from 'react-bootstrap';
 import swamiji from "../images/swamiji.jpeg"
+import logo from '../images/logo.png'
 
 function Header (){
   return(
@@ -32,6 +33,7 @@ function Header (){
 
           <Col lg={1} sm={3}>
             <img src={swamiji} className="d-block h-100 w-100" alt="..." />
+
           </Col>
                 
           <Col>
@@ -40,7 +42,9 @@ function Header (){
           </Col>
 
           <Col lg={1} sm={3}>
-            <img src={swamiji} className="d-block h-100 w-100" alt="..." />
+            {/* <img src={swamiji} className="d-block h-100 w-100" alt="..." /> */}
+            <img src={logo} className="d-block h-100 w-100" alt="..." />
+
           </Col>       
             
         

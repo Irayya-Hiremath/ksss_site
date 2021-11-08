@@ -6,6 +6,7 @@ import {Card,Tabs,Tab,Table} from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 import image from '../images/DSC.jpg';
 import Courses from '../components/Courses'
+import Campus from '../components/Campus'
 
 
 function Aboutpage() {
@@ -141,7 +142,7 @@ function Aboutpage() {
                        
                   </Tabs>
 
-                  <Courses/>
+                  {/* <Courses/> */}
             </Layout>
             
         </div>

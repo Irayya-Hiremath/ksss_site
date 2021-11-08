@@ -20,6 +20,7 @@ function Navmenu() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="Aboutpage">About us</Nav.Link>
               <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="Courses">
@@ -31,11 +32,12 @@ function Navmenu() {
                 <NavDropdown.Divider />
 
               </NavDropdown>
-              <Nav.Link href="#features">Events</Nav.Link>
-              <Nav.Link href="#features">Campus</Nav.Link>
-              <Nav.Link href="#features">Photo Gallery</Nav.Link>
+              <Nav.Link href="Hostel">Hostel</Nav.Link>
+              <Nav.Link href="Events">Events</Nav.Link>
+              <Nav.Link href="Campus">Campus</Nav.Link>
+              <Nav.Link href="PhotoGallary">Photo Gallery</Nav.Link>
               <Nav.Link href="#features">Notice</Nav.Link>
-              <Nav.Link href="Contactpage">Contact</Nav.Link>
+              <Nav.Link href="Contact">Contact</Nav.Link>
               {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
               
             </Nav>
