@@ -23,8 +23,7 @@ function Campus() {
                         </Nav.Item>  
                         <Nav.Item>
                         <Nav.Link eventKey="five">Transport</Nav.Link>
-                        </Nav.Item>
-                        
+                        </Nav.Item> 
                     </Nav>
                     </Col>
                     <Col sm={9}>

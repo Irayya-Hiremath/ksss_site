@@ -11,7 +11,7 @@ import Campus from '../components/Campus'
 
 function Aboutpage() {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Layout>
                 <Card>
                     <Card.Header as="h5">The Organization</Card.Header>
@@ -143,6 +143,7 @@ function Aboutpage() {
                   </Tabs>
 
                   {/* <Courses/> */}
+                  <Footer/>
             </Layout>
             
         </div>

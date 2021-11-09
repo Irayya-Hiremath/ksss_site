@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Tab,Row,Col,Nav,Carousel} from "react-bootstrap";
+import Footer from '../components/Footer';
 
 
 function Events() {
@@ -113,6 +114,7 @@ function Events() {
                             </Row>
                     </Tab.Container>
                     </div>
+                    <Footer/>
              </Layout>
         </div>
     )

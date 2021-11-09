@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../components/Layout'
 import Campuss from '../components/Campus';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from '../components/Footer'
+
 
 
 
@@ -12,7 +14,10 @@ function Campus() {
                 <h1>helllo</h1>
                 <Campuss/>
 
+                <Footer/>
+
             </Layout>
+
         </div>
     )
 }

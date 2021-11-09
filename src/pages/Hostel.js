@@ -1,5 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Table,Row,Col,Card} from "react-bootstrap";
 
@@ -46,7 +48,7 @@ function Hostel() {
                                 </tbody>
                         </Table>
                     </div>
-
+              <Footer/>
           </Layout>  
         </div>
     )

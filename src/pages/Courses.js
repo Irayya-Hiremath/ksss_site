@@ -3,6 +3,8 @@ import Layout from '../components/Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Card} from  "react-bootstrap";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
+import Footer from '../components/Footer'
+
 
 
 function Courses() {
@@ -64,7 +66,7 @@ function Courses() {
                     </Card>
                 
                  </div>
-             
+             <Footer/>
             </Layout>
         </div>
     )
