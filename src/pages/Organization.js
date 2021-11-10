@@ -9,15 +9,18 @@ import Courses from '../components/Courses'
 import Campus from '../components/Campus'
 
 
-function Aboutpage() {
+function Organization() {
     return (
         <div className='overflow-hidden'>
             <Layout>
                 <Card>
-                    <Card.Header as="h5">The Organization</Card.Header>
+                    
+                    {/* <Card.Header as="h5">The Organization</Card.Header> */}
                     <Card.Body>
                         {/* <Card.Title>Special title treatment</Card.Title> */}
-                        <Card.Text>
+                    <Card.Header className='text-left' as="h3" style={{backgroundColor:'#0F93F8',color:'white',width:'30%'}}>The Organization</Card.Header>
+
+                        <Card.Text className='py-2' style={{fontSize:'1.5rem'}}>
                        
                         We believe that every child is uniquely created with divine energy which requires a suitable medium of expression. 
                         It is our duty to channelize this hidden energy to the world at large through right education, 
@@ -39,11 +42,13 @@ function Aboutpage() {
                     </Card.Body>
                  </Card>
 
-                
-                    <Card.Header  as="h5">Chief Administrator</Card.Header>
+                 <Card>
+                   <Card.Header className=' text-center' as="h3" style={{backgroundColor:'#0F93F8',color:'white',width:'30%'}}>Chief Administrator</Card.Header>
+
+                    {/* <Card.Header  as="h5">Chief Administrator</Card.Header> */}
                     <Card.Body className='row'>
                         <div className="col-4 overflow-hidden "><img src={image} style={{image:'responsive',height:'100%',width:'100%'}} image-responsive alt="" /></div> 
-                        <Card.Text className='col-8'>
+                        <Card.Text className='col-8'style={{fontSize:'1.5rem'}}>
                             KSSS PU Science and Commerce College managed by Karnataka Shikshana Seva Samiti, Hubli was founded by His Holiness Dr. Si Sri Vishwesha Teertha Swamiji, Pejawar Mutt, Udupi. Our Swamiji has a keen interest towards this college and provide guidance, suggestions and inspirations which have made this college grow in leaps and bounds. The students of this college receive a special recognition everywhere. Right from its inception, the college has been receiving excellent results every year. The college provides quality education and it makes every effort in this regard. We believe that providing good education to the students is worshiping of God.
                                                     <br />
                                                     <br />
@@ -53,21 +58,21 @@ function Aboutpage() {
                                 
                         </Card.Text>
                     </Card.Body>
+                    </Card>
                 
+                    <Card.Header className=' text-center my-5 ' as="h3" style={{backgroundColor:'#0F93F8',color:'white',width:'30%'}}>Management</Card.Header>
 
-                    <Card.Header as="h5">Management</Card.Header>
-
-                    <Tabs defaultActiveKey="profile" className='bg-black' id="uncontrolled-tab-example" className="mb-3">
-                        <Tab eventKey="home" title="Members of trust">
-
+                    {/* <Card.Header as="h5">Management</Card.Header> */}
+                    <div className="row container ">
+                        <div className="col-6">
                         <Table striped bordered hover>
                             <thead>
-                                <tr>
+                                <tr style={{fontSize:'1.5rem'}}>
                                 <th>Sl No</th>
                                 <th>Members of Trust</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style={{fontSize:'1.2rem'}}>
                                 <tr>
                                 <td>1</td>
                                 <td>President <br />
@@ -104,16 +109,16 @@ function Aboutpage() {
                                 </tr>
                             </tbody>
                             </Table>
-                        </Tab>
-                        <Tab eventKey="profile" title="Counsil of Advisor">
+                        </div>
+                        <div className="col-6">
                         <Table striped bordered hover>
-                            <thead>
+                            <thead style={{fontSize:'1.5rem'}}>
                                 <tr>
                                 <th>Sl No</th>
-                                <th>Members of Trust</th>
+                                <th>Counsil of Advisor</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style={{fontSize:'1.2rem'}}>
                                 <tr>
                                 <td>1</td>
                                 <td>President <br />
@@ -136,13 +141,10 @@ function Aboutpage() {
                             </tbody>
 
                           </Table>  
+                        </div>
+                    </div>
 
-                            
-                        </Tab>
-                       
-                  </Tabs>
-
-                  {/* <Courses/> */}
+            
                   <Footer/>
             </Layout>
             
@@ -150,4 +152,4 @@ function Aboutpage() {
     )
 }
 
-export default Aboutpage
+export default Organization

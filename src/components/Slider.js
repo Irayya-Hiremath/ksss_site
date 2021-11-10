@@ -1,33 +1,34 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Carousel} from 'react-bootstrap';
-import image1 from "../images/1.jpg";
-import image2 from "../images/2.jpg";
-import image3 from "../images/3.jpg";
-import image4 from "../images/4.jpg";
-import image5 from "../images/5.jpg";
-import image6 from "../images/6.jpg";
-import image7 from "../images/7.jpg";
+import image1 from "../images/image1.jpg";
+import image2 from "../images/image2.jpg";
+import image3 from "../images/image3.jpg";
+import image4 from "../images/image4.jpg";
+import image5 from "../images/image5.jpg";
+import image6 from "../images/image6.jpg";
+import image7 from "../images/image1.jpg";
+// import {Carousel} from '../components/layout.css'
 
 function Slider(){
     return(
-        <div className='overflow-hidden'>
+        <div className='hello overflow-hidden border border-danger'style={{}}>
       
-        <Container fluid className=' mt-3'>
+         <Container fluid className=' conatainer-fluid' style={{height:''}}>
   
           {/*********  third row *************/}
         
-          <Carousel>
-              <Carousel.Item style={{height:'55vh',background:'no-repeat scroll center  scroll',backgroundSize:'cover'}}>
+          <Carousel className='hi'>
+              <Carousel.Item style={{height:"50%"}}>
                   <img
                   className="d-block w-100"
                   src={image1}
-                  alt="First slide"
+                  alt="First slide" width="300" height="300"
                   />
                   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:'50%'}}>
                   <img
                   className="d-block w-100"
                   src={image2}
@@ -37,7 +38,7 @@ function Slider(){
                   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:''}}>
                   <img
                   className="d-block w-100"
                   src={image3}
@@ -46,7 +47,7 @@ function Slider(){
   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:''}}>
                   <img
                   className="d-block w-100"
                   src={image4}
@@ -55,7 +56,7 @@ function Slider(){
                   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:''}}>
                   <img
                   className="d-block w-100"
                   src={image5}
@@ -64,7 +65,7 @@ function Slider(){
                   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:''}}>
                   <img
                   className="d-block w-100"
                   src={image6}
@@ -73,7 +74,7 @@ function Slider(){
                   
               </Carousel.Item>
   
-              <Carousel.Item style={{height:'55vh'}}>
+              <Carousel.Item style={{height:''}}>
                   <img
                   className="d-block w-100"
                   src={image7}
@@ -85,7 +86,7 @@ function Slider(){
           </Carousel>
   
   
-          </Container>
+         </Container>
   
       </div>
 

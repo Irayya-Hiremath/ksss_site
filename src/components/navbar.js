@@ -31,17 +31,25 @@ function Navmenu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             <A> <Nav.Link  href="/">Home</Nav.Link></A>
-              <Nav.Link href="Aboutpage">About us</Nav.Link>
-              <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="Courses">
-                Courses
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                Sailent Features
-                </NavDropdown.Item>
-                {/* <NavDropdown.Divider /> */}
 
+              <NavDropdown title="About us"id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="Object">
+                    Object And Vision
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="Organization">
+                    The Organization
+                    </NavDropdown.Item>
               </NavDropdown>
+
+              <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="Courses">
+                  Courses
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                  Sailent Features
+                  </NavDropdown.Item>
+              </NavDropdown>
+
               <Nav.Link href="Hostel">Hostel</Nav.Link>
               <Nav.Link href="Events">Events</Nav.Link>
               <Nav.Link href="Campus">Campus</Nav.Link>

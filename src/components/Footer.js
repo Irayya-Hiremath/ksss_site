@@ -39,7 +39,7 @@ const Span = styled.span`
 
 function Footer() {
     return (
-        <div className="main-footer  text-light pt-4" style={{background:"#151515"}}>
+        <div className="main-footer mt-5 text-light pt-4" style={{background:"#151515"}}>
             <div className="container" >
                 <div className="row">
 

@@ -36,10 +36,10 @@ function Header (){
 
           </Col>
                 
-          <Col>
+          <Col >
               <h2 className="mb-3 pt-3">KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
               <h1 className="mb-3">KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
-              <h4>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, Hubli</h4>
+              <h4>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
           </Col>
 
           <Col lg={1} sm={3}>
