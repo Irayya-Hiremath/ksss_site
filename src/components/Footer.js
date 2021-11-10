@@ -43,10 +43,10 @@ function Footer() {
             <div className="container" >
                 <div className="row">
 
-                    <div className="col-md-5 col-sm-6" style={{border:"1px solid red"}}>
+                    <div className="col-md-5 col-sm-6" style={{}}>
                         <H3>Karnataka Shikshana Seva Samiti</H3>
                         <div className="row">
-                            <p className="col-md-10 col-sm-6 " style={{border:"1px solid red",fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4"}} >
+                            <p className="col-md-10 col-sm-6 " style={{fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4"}} >
                             P U Science and Commerce College <br/>
                             Budarsingi - 580 028 <br/>
                             TQ: Hubli, Karnataka(India) <br/><br/>
@@ -58,7 +58,7 @@ function Footer() {
                     </div>
 
                     {/* column 1 */}
-                    <div className="col-md-2 col-sm-6 " style={{border:"1px solid red"}}>
+                    <div className="col-md-2 col-sm-6 " style={{}}>
                         <H3 className="ps-4">Pages</H3>
                         <ul className="list-unstyled ">
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Home</A></li>
@@ -73,7 +73,7 @@ function Footer() {
                     </div>
 
                     {/* column 2 */}
-                    <div className="col-md-3 col-sm-6 " style={{border:"1px solid red"}}>
+                    <div className="col-md-3 col-sm-6 " style={{}}>
                         <H3 className="ps-4">Useful Links</H3>
                         <ul className="list-unstyled">
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Salient Features</A></li>
@@ -85,7 +85,7 @@ function Footer() {
                     </div>
 
                     {/* column 3 */}
-                    <div className="col-md-2 col-sm-6" style={{border:"1px solid red"}}>
+                    <div className="col-md-2 col-sm-6" style={{}}>
                         <H3 className="ps-4">Social Links</H3>
                         <ul className="list-unstyled">
                             <li><A href=""><Icon icon="akar-icons:facebook-fill" /> Facebook</A></li>

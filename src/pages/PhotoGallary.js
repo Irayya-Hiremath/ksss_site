@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 function PhotoGallary() {
     return (
-        <div>
+        <div className='overflow-hidden'> 
              <Layout>
              <Footer/>
              </Layout>

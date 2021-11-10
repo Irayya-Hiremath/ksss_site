@@ -8,7 +8,7 @@ import {Table,Row,Col,Card} from "react-bootstrap";
 
 function Hostel() {
     return (
-        <div>
+        <div className='overflow-hidden'>
            <Layout>
 
                     <Card className='container' >

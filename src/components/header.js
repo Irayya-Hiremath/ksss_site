@@ -7,15 +7,15 @@ import logo from '../images/logo.png'
 
 function Header (){
   return(
-    <div className='overflow-hidden border border-danger'>
+    <div className='overflow-hidden '>
       
-      <Container fluid className='border border-danger'>
+      <Container fluid className=''>
 
         {/*********  first row *************/}
       
         <Row className="bg-dark">
           {/* <Col lg={2}></Col> */}
-          <Col lg={5} sm={12} style={{backgroundColor:'red'}}>
+          <Col lg={5} sm={12} style={{backgroundColor:'#0F93F8', color:'white'}}>
             <span className='mx-2' bg="dark">Phone No: +91-9945024923</span>
             <span className="mx-2">kssscollege@gmail.com</span>
             <span className="mx-2">Budersingi,Karnataka</span>   
@@ -37,8 +37,9 @@ function Header (){
           </Col>
                 
           <Col>
-              <h3 className="mb-3">KARNATAKA SHIKSHNA SEVA SAMITHI</h3>
+              <h2 className="mb-3 pt-3">KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
               <h1 className="mb-3">KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+              <h4>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, Hubli</h4>
           </Col>
 
           <Col lg={1} sm={3}>

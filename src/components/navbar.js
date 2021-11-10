@@ -2,6 +2,8 @@ import * as React from "react"
 // import "bootstrap/dist/js/bootstrap.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Container,Fluid,Nav,NavDropdown,Navbar} from "react-bootstrap";
+import styled from 'styled-components'
+
 
 
 // const carsoulHieght = {
@@ -10,17 +12,25 @@ import {Container,Fluid,Nav,NavDropdown,Navbar} from "react-bootstrap";
 //     // backgroundSize:'cover'
 
 // }
+const A = styled.a`
+    text-decoration: none;
+    color: #BCB4B4;
+    // font-family: "RobotoMono Regular";
+    &:hover {
+        color: #fb9d4a;
+      }`
+
 
 function Navmenu() {
   return (
-    <div className='mt-2 border border-danger'>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <div className='mt-2 '>
+      <Navbar collapseOnSelect expand="lg"  variant="dark" style={{fontSize:'1.5rem', backgroundColor:'#002347',color:'#FDA744'}} >
         <Container fluid> 
           {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+         <A> <Navbar.Toggle aria-controls="responsive-navbar-nav" /></A>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+            <A> <Nav.Link  href="/">Home</Nav.Link></A>
               <Nav.Link href="Aboutpage">About us</Nav.Link>
               <NavDropdown title="Acadmics" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="Courses">
@@ -29,7 +39,7 @@ function Navmenu() {
                 <NavDropdown.Item href="#action/3.3">
                 Sailent Features
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
+                {/* <NavDropdown.Divider /> */}
 
               </NavDropdown>
               <Nav.Link href="Hostel">Hostel</Nav.Link>

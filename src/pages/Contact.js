@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 function Contact() {
     return (
-        <div>
+        <div className='overflow-hidden'>
              <Layout>
 
                  <Contacts/>

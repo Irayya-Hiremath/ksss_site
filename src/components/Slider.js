@@ -11,9 +11,9 @@ import image7 from "../images/7.jpg"
 
 function Slider(){
     return(
-        <div>
+        <div className='overflow-hidden'>
       
-        <Container fluid className='border border-danger'>
+        <Container fluid className=' mt-3'>
   
           {/*********  third row *************/}
         

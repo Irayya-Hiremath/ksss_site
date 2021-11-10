@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 function Courses() {
     return (
-        <div>
+        <div className='overflow-hidden'>
              <Layout>
                  <div>
                      <CardHeader className='container'>Courses offered</CardHeader>
