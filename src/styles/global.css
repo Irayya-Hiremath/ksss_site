@@ -1,6 +1,6 @@
 
   /* css reset */
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -19,9 +19,12 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
+
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -42,9 +45,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
   /* css reset */
 
+
+
+  html{
+      font-size: 62.5%;
+  }
 
 /* slider component */
 
@@ -69,10 +77,29 @@ table {
       width:auto;
       height:auto;
     }
-
+    html{
+        font-size:40%;
+    }
 .hi{
     width: auto;
     height: auto;
 }
 }
 /* slider component */
+
+       /* index page */
+
+       .index-sm-image{
+           display: none;
+       }
+       @media (max-width: 900px) {
+       .index-image{
+           width:50%;
+           height: 50%;
+           border: 2px solid red;
+           display: none;
+       }
+    }
+
+
+       /* index page */

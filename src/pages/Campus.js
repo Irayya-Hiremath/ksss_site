@@ -11,13 +11,10 @@ function Campus() {
     return (
         <div className='border border-danger overflow-hidden'>
             <Layout className='w-100'>
-                <h1>helllo</h1>
                 <Campuss/>
 
                 <Footer/>
-
             </Layout>
-
         </div>
     )
 }

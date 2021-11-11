@@ -10,6 +10,7 @@ import{Card} from 'react-bootstrap';
 
 
 
+
 function IndexPage() {
    
   return(
@@ -35,21 +36,21 @@ function IndexPage() {
 
                 <div className='row container-fluid m-auto justify-content-center ' >
                  
-                 <div className="col-2  sm-12" >
+                 <div className="col-md-2  col-12" >
                    <Card>
-                    <Card.Img variant="top" src={swamiji} style={{width:'100%', height:'30%', margin:"auto"}}/> 
+                    <Card.Img variant="top" className="index-image" src={swamiji} style={{width:'100%', height:'30%', margin:"auto",}}/> 
                      {/* <img src={swamiji} className='overflow-hidden ' style={{width:"250px" , height:'300px'}} alt="" srcset="" /> */}
                    </Card>
      
                  </div>
                  
-                 <div className="col-8 sm-12 " >
+                 <div className="col-md-8 col-12 " >
                    <Card>
-                 <Card.Header className='w-auto text-center' as="h3" style={{backgroundColor:'#0F93F8',color:'white'}}>THE DRIVING FORCE</Card.Header>
-
+                  <Card.Header className='w-auto text-center' as="h3" style={{backgroundColor:'#0F93F8',color:'white',fontSize:'3rem'}}>THE DRIVING FORCE</Card.Header>
+                     <Card.Img variant="top" className="index-sm-image" src={swamiji} style={{width:'30%', height:'30%', margin:"auto",}}/> 
                      <Card.Body>
 
-                       <Card.Text className='py-2' style={{fontSize:'1.5rem'}}>
+                       <Card.Text className='py-2' style={{fontSize:'2.5rem'}}>
                            We believe that every child is uniquely created with divine
                          energy which requires a suitable medium of expression. It is our
                          duty to channelize this hidden energy to the world at large
@@ -63,13 +64,7 @@ function IndexPage() {
                        </Card.Text>
                      </Card.Body>
                    </Card>
-                     {/* <Content title='THE DRIVING FORCE'titleContent="We believe that every child is uniquely created with divine
-                     energy which requires a suitable medium of expression. It is our
-                     duty to channelize this hidden energy to the world at large
-                     through right education, right values and right action. KSSS PU
-                     College imbibes these ideals for purposeful education across
-                     caste, creed and nationality in the true spirit of Sri Swamiji's
-                     vision."/> */}
+              
                   </div>
                   
              </div>

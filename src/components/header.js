@@ -37,9 +37,9 @@ function Header (){
           </Col>
                 
           <Col >
-              <h2 className="mb-3 pt-3">KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
-              <h1 className="mb-3">KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
-              <h4>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
+              <h2 className="mb-3 pt-3" style={{fontSize:'3rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
+              <h1 className="mb-3"style={{fontSize:'5rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+              <h4 style={{fontSize:'2rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
           </Col>
 
           <Col lg={1} sm={3}>
