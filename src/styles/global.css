@@ -103,3 +103,24 @@ table {
 
 
        /* index page */
+
+
+    /* header page */
+       .small-header{
+           display: none;
+       }
+    
+       @media (max-width: 900px) {
+           .big-header{
+               display: none;
+           }
+           .small-header{
+            display:block;
+        }
+    
+    }
+
+    /* header page */
+
+
+    

@@ -12,16 +12,20 @@ import { Icon } from '@iconify/react';
 const A = styled.a`
     text-decoration: none;
     color: #BCB4B4;
-    // font-family: "RobotoMono Regular";
+    font-family: "RobotoMono Regular";
+    font-size: 1.8rem;
+    margin-bottom: 5.5rem;
     &:hover {
         color: #fb9d4a;
       }
 
 `
 const H3 = styled.h3`
-    // font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     color: #E7EFEF;
     text-decoration: underline;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 `
 const FooterDesign = styled.footer`
     background-color: black;
@@ -41,12 +45,12 @@ function Footer() {
     return (
         <div className="main-footer mt-5 text-light pt-4" style={{background:"#151515"}}>
             <div className="container" >
-                <div className="row">
+                <div className="row  mx-md-0 mx-5">
 
-                    <div className="col-md-5 col-sm-6" style={{}}>
+                    <div className="col-md-5 col-9 mb-5" style={{}}>
                         <H3>Karnataka Shikshana Seva Samiti</H3>
                         <div className="row">
-                            <p className="col-md-10 col-sm-6 " style={{fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4"}} >
+                            <p className="col-md-10 col-6 " style={{fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4",fontSize:"1.8rem"}} >
                             P U Science and Commerce College <br/>
                             Budarsingi - 580 028 <br/>
                             TQ: Hubli, Karnataka(India) <br/><br/>
@@ -58,10 +62,10 @@ function Footer() {
                     </div>
 
                     {/* column 1 */}
-                    <div className="col-md-2 col-sm-6 " style={{}}>
-                        <H3 className="ps-4">Pages</H3>
+                    <div className="col-md-2 col-3 mb-5" style={{}}>
+                        <H3 className="ps-2">Pages</H3>
                         <ul className="list-unstyled ">
-                           <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Home</A></li>
+                           <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span >Home</A></li>
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>About</A></li>
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>courses</A></li>
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Events</A></li>
@@ -73,8 +77,8 @@ function Footer() {
                     </div>
 
                     {/* column 2 */}
-                    <div className="col-md-3 col-sm-6 " style={{}}>
-                        <H3 className="ps-4">Useful Links</H3>
+                    <div className="col-md-3 col-9 mb-5" style={{}}>
+                        <H3 className="ps-2">Useful Links</H3>
                         <ul className="list-unstyled">
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Salient Features</A></li>
                            <li><A href=""><Span><Icon icon="bx:bx-chevron-right" /></Span>Hostel</A></li>
@@ -85,8 +89,8 @@ function Footer() {
                     </div>
 
                     {/* column 3 */}
-                    <div className="col-md-2 col-sm-6" style={{}}>
-                        <H3 className="ps-4">Social Links</H3>
+                    <div className="col-md-2 col-3 mb-5" style={{}}>
+                        <H3 className="ps-0">Social Links</H3>
                         <ul className="list-unstyled">
                             <li><A href=""><Icon icon="akar-icons:facebook-fill" /> Facebook</A></li>
                             <li><A href=""><Icon icon="akar-icons:twitter-fill" /> Twitter</A></li>

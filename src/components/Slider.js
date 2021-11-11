@@ -12,7 +12,7 @@ import image7 from "../images/image1.jpg";
 
 function Slider(){
     return(
-        <div className='hello overflow-hidden border border-danger'style={{}}>
+        <div className='container-fluid hello mt-2 overflow-hidden 'style={{}}>
       
          <Container fluid className=' conatainer-fluid' style={{height:''}}>
   

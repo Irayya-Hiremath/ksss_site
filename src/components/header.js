@@ -15,38 +15,43 @@ function Header (){
       
         <Row className="bg-dark">
           {/* <Col lg={2}></Col> */}
-          <Col lg={5} sm={12} style={{backgroundColor:'#0F93F8', color:'white'}}>
-            <span className='mx-2' bg="dark">Phone No: +91-9945024923</span>
-            <span className="mx-2">kssscollege@gmail.com</span>
-            <span className="mx-2">Budersingi,Karnataka</span>   
+          <Col lg={6} sm={12} style={{backgroundColor:'#0F93F8', color:'white',fontSize:'2rem'}}>
+            <span className='px-md-5 ms-md-5 px-3  ms-3' bg="dark">Phone No: +91-9945024923</span>
+            <span className="px-md-5 px-3">kssscollege@gmail.com</span>
+            <span className="px-md-5 px-3">Budersingi,Karnataka</span>   
           </Col>
 
-          <Col lg={5} sm={12}>
-            <marquee className='text-light'> website under process </marquee>
+          <Col lg={6} sm={12}>
+            <marquee className='text-light'style={{fontSize:'2rem'}}> website under process </marquee>
           </Col>
 
         </Row>
 
 
         {/*********** second row ***************/}
-        <Row className="text-center">
+        <Row className="text-center ">
 
-          <Col lg={1} sm={3}>
-            <img src={swamiji} className="d-block h-100 w-100" alt="..." />
-
-          </Col>
+          <div className="col-md-1 col-2 ">
+            <img src={swamiji} className="d-block  w-100 img-fluid " alt="..." />
+          </div>
                 
-          <Col >
-              <h2 className="mb-3 pt-3" style={{fontSize:'3rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
-              <h1 className="mb-3"style={{fontSize:'5rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
-              <h4 style={{fontSize:'2rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
-          </Col>
+          <div className="col-md-10 col-8  big-header" >
+              <h2 className="mb-3 pt-3 header1" style={{fontSize:'3rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
+              <h1 className="mb-3 header2"style={{fontSize:'5rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+              <h4 className="mb-3 header3" style={{fontSize:'2rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
+          </div>
 
-          <Col lg={1} sm={3}>
-            {/* <img src={swamiji} className="d-block h-100 w-100" alt="..." /> */}
-            <img src={logo} className="d-block h-100 w-100" alt="..." />
+          <div className="col-md-10 col-8 font-weight-bold small-header" >
+              <h2 className="mb-3 pt-3 header1" style={{fontSize:'2rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
+              <h1 className="mb-3 header2"style={{fontSize:'2.3rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+              <h3 className="mb-3 header3" style={{fontSize:'1.5rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI</h3>
+          </div>
 
-          </Col>       
+      
+
+          <div className="col-md-1 col-2  m-auto">
+            <img src={logo} className="d-block  w-100 img-fluid" alt="..." />
+          </div>     
             
         
         </Row>
