@@ -12,13 +12,13 @@ import image7 from "../images/image1.jpg";
 
 function Slider(){
     return(
-        <div className='container-fluid hello mt-2 overflow-hidden 'style={{}}>
+        <div className='container-fluid slide-main mt-2 overflow-hidden 'style={{}}>
       
          <Container fluid className=' conatainer-fluid' style={{height:''}}>
   
           {/*********  third row *************/}
         
-          <Carousel className='hi'>
+          <Carousel className='slide-carousel'>
               <Carousel.Item style={{height:"50%"}}>
                   <img
                   className="d-block w-100"

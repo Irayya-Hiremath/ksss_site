@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contacts from '../components/contact'
+import Image from '../components/Image'
 import Footer from '../components/Footer'
 
 
@@ -11,7 +11,7 @@ function Contact() {
         <div className='overflow-hidden'>
              <Layout>
 
-                 <Contacts/>
+                 <Image/>
 
                  <Footer/>
                 

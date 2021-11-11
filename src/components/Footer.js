@@ -47,7 +47,7 @@ function Footer() {
             <div className="container" >
                 <div className="row  mx-md-0 mx-5">
 
-                    <div className="col-md-5 col-9 mb-5" style={{}}>
+                    <div className="col-md-5 col-9 mb-5 " style={{}}>
                         <H3>Karnataka Shikshana Seva Samiti</H3>
                         <div className="row">
                             <p className="col-md-10 col-6 " style={{fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4",fontSize:"1.8rem"}} >

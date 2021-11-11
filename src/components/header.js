@@ -18,7 +18,7 @@ function Header (){
           <Col lg={6} sm={12} style={{backgroundColor:'#0F93F8', color:'white',fontSize:'2rem'}}>
             <span className='px-md-5 ms-md-5 px-3  ms-3' bg="dark">Phone No: +91-9945024923</span>
             <span className="px-md-5 px-3">kssscollege@gmail.com</span>
-            <span className="px-md-5 px-3">Budersingi,Karnataka</span>   
+            {/* <span className="px-md-5 px-3">Budersingi,Karnataka</span>    */}
           </Col>
 
           <Col lg={6} sm={12}>
@@ -42,9 +42,9 @@ function Header (){
           </div>
 
           <div className="col-md-10 col-8 font-weight-bold small-header" >
-              <h2 className="mb-3 pt-3 header1" style={{fontSize:'2rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
-              <h1 className="mb-3 header2"style={{fontSize:'2.3rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
-              <h3 className="mb-3 header3" style={{fontSize:'1.5rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI</h3>
+              <h2 className="mb-3 pt-3 header1" style={{fontSize:'1.6rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
+              <h1 className="mb-3 header2"style={{fontSize:'1.8rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
+              <h3 className="mb-3 header3" style={{fontSize:'1.3rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI</h3>
           </div>
 
       

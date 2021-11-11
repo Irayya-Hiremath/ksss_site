@@ -54,7 +54,7 @@ function Navmenu() {
               <Nav.Link href="Events" className='px-md-5'>Events</Nav.Link>
               <Nav.Link href="Campus" className='px-md-5'>Campus</Nav.Link>
               <Nav.Link href="PhotoGallary" className='px-md-5'>Photo Gallery</Nav.Link>
-              <Nav.Link href="#features" className='px-md-5'>Notice</Nav.Link>
+              <Nav.Link href="Image" className='px-md-5'>Notice</Nav.Link>
               <Nav.Link href="Contact" className='px-md-5'>Contact</Nav.Link>
               {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
               
