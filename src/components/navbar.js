@@ -13,11 +13,11 @@ import styled from 'styled-components'
 function Navmenu() {
   return (
     <div className='mt-2 '>
-      <Navbar collapseOnSelect expand="lg"  variant="dark" style={{fontSize:'2.5rem', backgroundColor:'#002347',color:'#FDA744'}} >
+      <Navbar collapseOnSelect expand="lg"  variant="dark" style={{fontSize:'2.5rem', backgroundColor:'#002347',color:'#FDA744',border:'.1rem solid orange'}} >
         <Container fluid> 
           {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className='px-2' style={{border:'0.5rem solid orange',width:"6rem"}} />
+          <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav className="me-auto">
             <Nav.Link className='px-md-5' href="/">Home</Nav.Link>
 
@@ -31,10 +31,10 @@ function Navmenu() {
               </NavDropdown>
 
               <NavDropdown className='px-md-5' title="Acadmics" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="Courses"className='px-md-5'>
+                  <NavDropdown.Item href="Courses"className='px-md-5'style={{backgroundColor:'#002347',fontSize:'2.5rem',color:'white'}}>
                   Courses
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
+                  <NavDropdown.Item href="#action/3.3"style={{backgroundColor:'#002347',fontSize:'2.5rem',color:'white'}}>
                   Sailent Features
                   </NavDropdown.Item>
               </NavDropdown>
