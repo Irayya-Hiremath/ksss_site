@@ -31,7 +31,7 @@ function Header (){
         {/*********** second row ***************/}
         <Row className="text-center ">
 
-          <div className="col-md-1 col-2 ">
+          <div className="col-md-1 col-2 m-auto">
             <img src={swamiji} className="d-block  w-100 img-fluid " alt="..." />
           </div>
                 

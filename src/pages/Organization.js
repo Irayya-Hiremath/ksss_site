@@ -12,10 +12,10 @@ function Organization() {
   return (
     <div className="overflow-hidden">
       <Layout>
-        <Card className="px-md-5 px-0 mb-md-5 mb-5">
+        <Card className="px-md-5 px-0 mb-md-5 mb-5 sh">
                 <Card.Body>
                     <Card.Header
-                        className="text-center w-50"
+                        className="text-center w-75"
                         as="h3"
                         style={{
                           backgroundColor: "#0F93F8",
@@ -66,9 +66,9 @@ function Organization() {
                  </Card.Body>
             </Card>
                   
-          <div className="row container-fluid m-auto px-md-5 px-0 mb-md-5 mb-5">
-                      <Card.Header className=" text-center my-5 w-50 px-md-5 px-0"     as="h3" style={{ backgroundColor: "#0F93F8", color: "white",  fontSize: "3rem", }}  >
-                              THE DRIVING FORCE
+          <div className="row container-fluid m-auto px-md-5 px-0 mb-md-5 mb-5 sh">
+                      <Card.Header className=" text-center my-5 w-75 px-md-5 px-0"     as="h3" style={{ backgroundColor: "#0F93F8", color: "white",  fontSize: "3rem", }}  >
+                              CHIEF ADMININSTRATOR
                         </Card.Header>
                       <div class="col-12">
 
@@ -102,9 +102,9 @@ function Organization() {
 
        
         {/* <Card.Header as="h5">Management</Card.Header> */}
-        <div className="row px-md-5 px-0" >
+        <div className="row px-md-5 px-0 " >
             <Card.Header
-            className=" text-center my-5 w-50 px-md-5 px-0"
+            className=" text-center my-5 w-75 px-md-5 px-0"
             as="h3"
             style={{
                 backgroundColor: "#0F93F8",
@@ -116,7 +116,7 @@ function Organization() {
             </Card.Header>
         </div>
 
-        <div className="row container px-md-5 px-0 mb-md-5 mb-5 " >
+        <div className="row container px-md-5 px-0 mb-md-5 mb-5 sh " >
 
           <div className="col-md-6 col-12 px-5 mb-5">
             <Table striped bordered hover>

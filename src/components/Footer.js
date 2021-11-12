@@ -50,14 +50,15 @@ function Footer() {
                     <div className="col-md-5 col-9 mb-5 " style={{}}>
                         <H3>Karnataka Shikshana Seva Samiti</H3>
                         <div className="row">
-                            <p className="col-md-10 col-6 " style={{fontFamily: "'Roboto Mono', monospace",color:"#BCB4B4",fontSize:"1.8rem"}} >
+                            <div className="col-md-10 col-10 " style={{color:"#BCB4B4",fontSize:"1.8rem"}} >
                             P U Science and Commerce College <br/>
                             Budarsingi - 580 028 <br/>
                             TQ: Hubli, Karnataka(India) <br/><br/>
                             Phone No: +91-99450 24923 <br/>
                             Principal No: +91-9945532549 <br/>
                             Email-Id: kssscollege@gmail.com 
-                            </p>
+                        
+                            </div>
                         </div>
                     </div>
 

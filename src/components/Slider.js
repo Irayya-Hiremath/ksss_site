@@ -12,9 +12,9 @@ import image7 from "../images/image1.jpg";
 
 function Slider(){
     return(
-        <div className='container-fluid slide-main mt-2 overflow-hidden 'style={{}}>
+        <div className='container-fluid slide-main mt-2 overflow-hidden mb-5'>
       
-         <Container fluid className=' conatainer-fluid' style={{height:''}}>
+         <Container fluid className=' conatainer-fluid '>
   
           {/*********  third row *************/}
         

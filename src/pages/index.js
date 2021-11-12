@@ -19,8 +19,8 @@ function IndexPage() {
     <Layout >
         <Slider/>
 
-                  <Card className="px-md-5 px-0 mb-md-5 mb-5">
-                    <Card.Body>
+                  <Card className="px-md-5 px-5 mb-md-5 mb-5 border-0">
+                    <Card.Body className='sh'>
                       <Card.Header
                         className="text-left"
                         as="h3"
@@ -52,7 +52,7 @@ function IndexPage() {
                     </Card.Body>
                   </Card>
 
-                    <div className="row container px-md-5 px-0 mb-md-5 mb-5">
+                    <div className="row container px-md-5 px-5 mb-md-5 mb-5 sh">
                             <Card.Header
                                     className=" text-center my-5 w-50 px-md-5 px-0"
                                     as="h3"
