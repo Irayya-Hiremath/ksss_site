@@ -54,7 +54,7 @@ function IndexPage() {
 
                     <div className="row container px-md-5 px-5 mb-md-5 mb-5 sh">
                             <Card.Header
-                                    className=" text-center my-5 w-50 px-md-5 px-0"
+                                    className=" text-center my-5 w-75 px-md-5 px-0"
                                     as="h3"
                                     style={{
                                         backgroundColor: "#0F93F8",
