@@ -41,7 +41,7 @@ function Header (){
               <h4 className="mb-3 header3" style={{fontSize:'2rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI, HUBLI</h4>
           </div>
 
-          <div className="col-md-10 col-8 font-weight-bold small-header" >
+          <div className="col-md-10 col-8 font-weight-bold align-middle m-auto small-header" >
               <h2 className="mb-3 pt-3 header1" style={{fontSize:'1.6rem'}}>KARNATAKA SHIKSHNA SEVA SAMITHI</h2>
               <h1 className="mb-3 header2"style={{fontSize:'1.8rem'}}>KSSS P.U SCIENCE AND COMMERCE COLLEGE</h1>
               <h3 className="mb-3 header3" style={{fontSize:'1.3rem'}}>GOVARDHANA CAMPUS NEAR KUNDAGOL, CROSS BUDARSINGI</h3>
