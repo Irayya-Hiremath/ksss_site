@@ -29,24 +29,19 @@ function Campus() {
                     <Col sm={9}>
                     <Tab.Content>
                         <Tab.Pane eventKey="first" className=' border border-danger'>
-                        {/* <Sonnet /> */}
                         <h1>first</h1>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                        {/* <Sonnet /> */}
                         <h1>second</h1>
 
                         </Tab.Pane>
                         <Tab.Pane eventKey="three">
-                        {/* <Sonnet /> */}
                         <h1>third</h1>
 
                         </Tab.Pane> <Tab.Pane eventKey="four">
-                        {/* <Sonnet /> */}
                         <h1>fourth</h1>
 
                         </Tab.Pane> <Tab.Pane eventKey="five">
-                        {/* <Sonnet /> */}
                         <h1>fifth</h1>
 
                         </Tab.Pane>

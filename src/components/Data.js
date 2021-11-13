@@ -19,37 +19,37 @@ const Textcontent=[
         round development of the individual student is the foremost
         philosophy of this college.The campus is optly named as "Govardan
         Campus`
-    },
-    {
-        Title:'THE DRIVING FORCE',
-        Subtitle:'',
-        Text:`We believe that every child is uniquely created with divine
-        energy which requires a suitable medium of expression. It is our
-        duty to channelize this hidden energy to the world at large
-        through right education, right values and right action. KSSS PU
-        College imbibes these ideals for purposeful education across
-        caste, creed and nationality in the true spirit of Sri Swamiji's
-        vision.`
-    },
-    {
-        Title:'Objective',
-        Subtitle:'',
-        Text:`We aim to provide quality education with highest academic
-        standards .Our objective is to create an environment that will
-        ensure that our student will develop well rounded personalities
-        and grow into successful human beings and not just remain
-        successful students.`
-    },
-    {
-        Title:'Vision',
-        Subtitle:'',
-        Text:`To maintain the higher standard of discipline and imparting right
-        value. To install the spirit of dedication to the young minds to
-        be an asset to the nation. To mould the student/young minds with
-        best education and higher disciplinary Standards to meet the
-        global competency. To be the most efficient acceptable and excel
-        in the field of education`
-    },
+    }
+    // {
+    //     Title:'THE DRIVING FORCE',
+    //     Subtitle:'',
+    //     Text:`We believe that every child is uniquely created with divine
+    //     energy which requires a suitable medium of expression. It is our
+    //     duty to channelize this hidden energy to the world at large
+    //     through right education, right values and right action. KSSS PU
+    //     College imbibes these ideals for purposeful education across
+    //     caste, creed and nationality in the true spirit of Sri Swamiji's
+    //     vision.`
+    // },
+    // {
+    //     Title:'Objective',
+    //     Subtitle:'',
+    //     Text:`We aim to provide quality education with highest academic
+    //     standards .Our objective is to create an environment that will
+    //     ensure that our student will develop well rounded personalities
+    //     and grow into successful human beings and not just remain
+    //     successful students.`
+    // },
+    // {
+    //     Title:'Vision',
+    //     Subtitle:'',
+    //     Text:`To maintain the higher standard of discipline and imparting right
+    //     value. To install the spirit of dedication to the young minds to
+    //     be an asset to the nation. To mould the student/young minds with
+    //     best education and higher disciplinary Standards to meet the
+    //     global competency. To be the most efficient acceptable and excel
+    //     in the field of education`
+    // },
 ]
 
 

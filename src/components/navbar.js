@@ -1,5 +1,4 @@
 import * as React from "react"
-// import "bootstrap/dist/js/bootstrap.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Container,Fluid,Nav,NavDropdown,Navbar} from "react-bootstrap";
 import styled from 'styled-components'
@@ -22,10 +21,10 @@ function Navmenu() {
             <Nav.Link className='px-md-5' href="/">Home</Nav.Link>
 
               <NavDropdown title="About us"id="collasible-nav-dropdown"style={{backgroundColor:'#002347'}}>
-                  <NavDropdown.Item href="Object" style={{backgroundColor:'#002347',fontSize:'2.5rem',color:'white'}}>
+                  <NavDropdown.Item href="/Object" style={{backgroundColor:'#002347',fontSize:'2.5rem',color:'white'}}>
                     Object And Vision
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="Organization"style={{backgroundColor:'#002347', fontSize:'2.5rem',color:'white'}}>
+                    <NavDropdown.Item href="/Organization"style={{backgroundColor:'#002347', fontSize:'2.5rem',color:'white'}}>
                     The Organization
                     </NavDropdown.Item>
               </NavDropdown>
