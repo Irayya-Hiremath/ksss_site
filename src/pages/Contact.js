@@ -21,7 +21,6 @@ function Contact() {
             <Content title="jaaai" titleContent="testig props"/>
 
                 </div>
-                {/* <h1>{data[0].Title}</h1> */}
 
             </div>
                  <Footer/>
